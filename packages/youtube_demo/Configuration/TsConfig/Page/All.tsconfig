@@ -1,0 +1,7 @@
+#
+# PageTS for YouTube Demo
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:youtube_demo/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:youtube_demo/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:youtube_demo/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:youtube_demo/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4175c50cd7c5e1b75f54f994785d17ee",
+    "content-hash": "711aabfcb224ff70798f5e5032c46064",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1235,6 +1235,42 @@
                 }
             ],
             "time": "2023-12-03T20:05:35+00:00"
+        },
+        {
+            "name": "it-services-zone/youtube-demo",
+            "version": "1.0.2",
+            "dist": {
+                "type": "path",
+                "url": "packages/youtube_demo",
+                "reference": "183e15362abc0edbab0b6c41c73c8213ece08a01"
+            },
+            "require": {
+                "typo3/cms-core": "^12.4",
+                "typo3/cms-fluid-styled-content": "^12.4",
+                "typo3/cms-rte-ckeditor": "^12.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "youtube_demo"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ItServicesZone\\YoutubeDemo\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "demo",
+            "homepage": "https://itserviceszone.com",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "lolli42/finediff",
