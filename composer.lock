@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "711aabfcb224ff70798f5e5032c46064",
+    "content-hash": "90b1b078e1d581f36a4822f6377d4830",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1403,6 +1403,42 @@
                 "source": "https://github.com/Masterminds/html5-php/tree/2.9.0"
             },
             "time": "2024-03-31T07:05:07+00:00"
+        },
+        {
+            "name": "netzmacher/slick",
+            "version": "12.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.die-netzmacher.de/typo3/slick",
+                "reference": "f06940afa5327041dbcc5edc885c0d6d88f3f109"
+            },
+            "require": {
+                "php": "^7.4 || ^8.0 || ^8.1 || ^8.2",
+                "typo3/cms-core": "^10.4 || ^11.5 || ^12.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "slick"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Netzmacher\\Slick\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dirk Wildt (Die Netzmacher, verdigado eG)",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Slick Slider",
+            "time": "2023-07-29T16:19:46+00:00"
         },
         {
             "name": "nikic/php-parser",
