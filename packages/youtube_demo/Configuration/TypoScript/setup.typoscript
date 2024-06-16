@@ -144,7 +144,7 @@ page {
     }
 
     includeCSS {
-        youtube_demo_layout = EXT:youtube_demo/Resources/Public/Css/layout.min.css
+        bootstrap = EXT:youtube_demo/Resources/Public/Css/bootstrap.min.css
     }
 
     includeJSLibs {
@@ -156,11 +156,11 @@ page {
     }
 
     includeJSFooterlibs {
-
+        jquery = EXT:youtube_demo/Resources/Public/JavaScript/Dist/jquery.js
     }
 
     includeJSFooter {
-        youtube_demo_scripts = EXT:youtube_demo/Resources/Public/JavaScript/Dist/scripts.js
+        
     }
 }
 

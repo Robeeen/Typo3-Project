@@ -1,4 +1,4 @@
-<ul>
+<!-- <ul>
     <f:for each="{mainnavigation}" as="mainnavigationItem">
         <li class="{f:if(condition: mainnavigationItem.active, then:'active')}">
             <a href="{mainnavigationItem.link}" target="{mainnavigationItem.target}" title="{mainnavigationItem.title}">
@@ -19,5 +19,7 @@
     </f:for>
 </ul>
 
-<f:debug>{_all}</f:debug>
+ -->
+
+<f:render partial="Navigation/MainNavigation.html" arguments="{_all}"/>
 <f:render section="Main" />
